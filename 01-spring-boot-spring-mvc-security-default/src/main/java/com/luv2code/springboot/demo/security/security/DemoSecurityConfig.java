@@ -20,6 +20,7 @@ public class DemoSecurityConfig {
         return new JdbcUserDetailsManager(dataSource);
     }
 
+
     @Bean
     public SecurityFilterChain filterChain(HttpSecurity http) throws Exception {
 
